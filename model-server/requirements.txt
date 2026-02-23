@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+transformers
+torch
+indic-nlp-library
+indic-transliteration

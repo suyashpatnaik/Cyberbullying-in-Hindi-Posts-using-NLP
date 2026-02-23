@@ -1,0 +1,8 @@
+CREATE TABLE chats (
+id SERIAL PRIMARY KEY,
+message TEXT,
+reply TEXT,
+label TEXT,
+confidence FLOAT,
+created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
